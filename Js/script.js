@@ -1,13 +1,12 @@
 "use strict";
 
-let  money = "1000";  //“Доход за месяц”
+let  money = 1000;  //“Доход за месяц”
 console.log(typeof money);
 let  income = 'Курьер'; // Дополнительный доход.
 console.log(typeof income);
 let addExpenses ="Такси, Проживание, Питание, Налоги";
-console.log(addExpenses.length);
-console.log(addExpenses.toLowerCase());
-console.log(addExpenses.split(', '));
+console.log(addExpenses.length , addExpenses.toLowerCase() , addExpenses.split(', ') );
+
 let  deposit = true; //любое булево значение,
 console.log(typeof deposit);
 let  mission = 50000; //любое число(Какую сумму хотите накопить)
